@@ -1,0 +1,49 @@
+*{
+	box-sizing:border-box ;
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	background-image: url(ZIB.JPG);
+	background-repeat:no-repeat ;
+	background-attachment: fixed;
+	background-size: cover;,
+	background-position:center;
+	height: 4500px;
+	width: 100%;
+	position: absolute;
+	padding:5rem 0 ;
+}
+
+
+
+header:before{
+	position:absolute;
+	content:"";
+	background-color: blue;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity:0.3 ;
+}
+
+.caja{
+
+	background-color:white ;
+	width: 150px;
+	height: 150px;
+}
+
+
+
+.contenido-header{
+	position: relative;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-size: 3rem;
+}
